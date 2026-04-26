@@ -1,9 +1,9 @@
 const reverseString = function(string) {
-    let word = '';
+    let reversedString = '';
     for(let i=string.length-1; i>=0; i--){
-        word=word + string.charAt(i);
+        reversedString = reversedString + string.charAt(i);
     }
-    return word;
+    return reversedString;
 };
 reverseString(`hello`);
 reverseString(`hello there`);
